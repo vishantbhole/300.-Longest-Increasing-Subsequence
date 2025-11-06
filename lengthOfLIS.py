@@ -11,3 +11,8 @@ class Solution:
                 if nums[i] < nums[j]:
                     res[i] = max(res[i] , 1 + res[j])
         return max(res)
+
+if __name__ == "__main__":
+    sol = Solution()
+    s = [10,9,2,5,3,7,101,18]
+    print("Output is : ", sol.lengthOfLIS(s))

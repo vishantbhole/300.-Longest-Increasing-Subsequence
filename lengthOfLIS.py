@@ -16,3 +16,6 @@ if __name__ == "__main__":
     sol = Solution()
     s = [10,9,2,5,3,7,101,18]
     print("Output is : ", sol.lengthOfLIS(s))
+    
+    s2 = [7,7,7,7,7,7,7]
+    print("Output is : ", sol.lengthOfLIS(s2))
